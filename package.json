@@ -1,0 +1,17 @@
+{
+  "name": "auto-i18n-tool",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "mxtzz",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/parser": "^7.22.7",
+    "@babel/traverse": "^7.22.8",
+    "@vue/compiler-dom": "^3.3.4",
+    "@vue/compiler-sfc": "^3.3.4",
+    "he": "^1.2.0",
+    "parse5": "^6.0.1",
+    "progress": "^2.0.3",
+    "typescript": "^5.1.6"
+  }
+}
