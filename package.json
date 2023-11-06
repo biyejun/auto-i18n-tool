@@ -5,7 +5,7 @@
   "author": "mxtzz",
   "license": "MIT",
   "scripts": {
-    "trans": "node ./sample/init.js"
+    "trans": "node ./locals/init.js"
   },
   "dependencies": {
     "@babel/parser": "^7.22.7",

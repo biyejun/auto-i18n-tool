@@ -3,15 +3,7 @@ const I18nTool = require('auto-i18n-tool')
 const tool = new I18nTool({
   basePath: './sample',
   filePaths: [
-    // 'src/components',
-    // 'src/pages/common',
-    // 'src/pages/employee',
-    // 'src/pages/manage',
-    // 'src/page/',
-    // 'src/stores/',
-    // 'src/utils',
-    // 'src/core',
-    'sample/test.ts'
+    'sample/'
   ],
   skipFiles: [
     // '.d.ts',
