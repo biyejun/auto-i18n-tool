@@ -4,6 +4,9 @@
   "main": "src/index.js",
   "author": "mxtzz",
   "license": "MIT",
+  "scripts": {
+    "trans": "node ./sample/init.js"
+  },
   "dependencies": {
     "@babel/parser": "^7.22.7",
     "@babel/traverse": "^7.22.8",
