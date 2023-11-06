@@ -6,9 +6,9 @@ class Main {
   config = {}
   constructor(config) {
     const { basePath, filePaths, skipFiles, langPath } = config
+    this.config = config
     this.directory = new Directory({ basePath, filePaths, skipFiles })
     this.local = new Local({ langPath, lang: this.config.to })
-    this.config = config
   }
 
   start() {
