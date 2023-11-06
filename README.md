@@ -4,15 +4,16 @@
 
 打开auto-i18n-tool
 
-- `yarn`
-- `yarn link` 挂载
+- `pnpm link -g` 挂载
 
 打开移动端项目
 
-- 执行`yarn link auto-i18n-tool` 软链接到auto-i18n-tool项目
-- 参考执行分支`dev/20230912/translate`的`yarn translate`命令，即`node ./locals/init.js`
+- 执行`pnpm link -g auto-i18n-tool` 软链接到auto-i18n-tool项目
+- 参考执行分支`dev/20230912/translate`的`pnpm translate`命令，即`node ./locals/init.js`
 - 打开locals\settings.json，看到待翻译的数据结构，让ChatGPT填充英文
-- 再次执行`yarn translate`
+- 再次执行`pnpm translate`
+
+> 移除全局下软链的包 `pnpm remove -g auto-i18n-tool`
 
 ## 初始化配置
 
