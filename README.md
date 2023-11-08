@@ -36,9 +36,6 @@ const tool = new I18nTool({
     'src/pages/common/asset/components/manage-popup', // template中有ts，暂不支持
     'src/pages/common/login/components/agree.vue' // template中有ts，暂不支持
   ],
-  keyReplace: {
-    'src/': ''
-  },
   dictPath: './locals',
   langPath: './locals',
   from: 'zh-cn',
