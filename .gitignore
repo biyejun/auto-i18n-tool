@@ -1,3 +1,3 @@
 node_modules/
-excel/en-us.json
-excel/cn.xlsx
+excel/en*
+excel/cn*
