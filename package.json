@@ -16,5 +16,8 @@
     "parse5": "^6.0.1",
     "progress": "^2.0.3",
     "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "node-xlsx": "^0.23.0"
   }
 }

@@ -30,6 +30,11 @@ dependencies:
     specifier: ^5.1.6
     version: 5.2.2
 
+devDependencies:
+  node-xlsx:
+    specifier: ^0.23.0
+    version: 0.23.0
+
 packages:
 
   /@babel/code-frame@7.22.13:
@@ -311,6 +316,14 @@ packages:
     hasBin: true
     dev: false
 
+  /node-xlsx@0.23.0:
+    resolution: {integrity: sha512-r3KaSZSsSrK92rbPXnX/vDdxURmPPik0rjJ3A+Pybzpjyrk4G6WyGfj8JIz5dMMEpCmWVpmO4qoVPBxnpLv/8Q==}
+    engines: {node: '>=10.0.0'}
+    hasBin: true
+    dependencies:
+      xlsx: '@cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz'
+    dev: true
+
   /parse5@6.0.1:
     resolution: {integrity: sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==}
     dev: false
@@ -355,3 +368,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
     dev: false
+
+  '@cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz':
+    resolution: {tarball: https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz}
+    name: xlsx
+    version: 0.19.3
+    engines: {node: '>=0.8'}
+    hasBin: true
+    dev: true
