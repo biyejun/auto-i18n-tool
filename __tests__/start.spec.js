@@ -1,13 +1,13 @@
 const I18nTool = require('../src/index');
 
 const conf = {
-  basePath: './sample',
+  basePath: './__tests__/sample',
   filePaths: [
     // 'sample/'
   ],
   skipFiles: ['/pages'],
-  dictPath: './locals',
-  langPath: './locals',
+  dictPath: './__tests__/locals',
+  langPath: './__tests__/locals',
   from: 'zh-cn',
   to: 'en-us',
 };
