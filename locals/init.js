@@ -1,9 +1,9 @@
-const I18nTool = require('auto-i18n-tool')
+const I18nTool = require('../src/index')
 
 const tool = new I18nTool({
   basePath: './sample',
   filePaths: [
-    'sample/'
+    // 'sample/'
   ],
   skipFiles: [
     '/pages'
