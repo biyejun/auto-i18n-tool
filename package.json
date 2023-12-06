@@ -6,7 +6,10 @@
   "license": "MIT",
   "scripts": {
     "trans": "node ./locals/init.js",
-    "test": "jest"
+    "test": "jest",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "@babel/parser": "^7.22.7",
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "jest": "^29.7.0",
-    "node-xlsx": "^0.23.0"
+    "node-xlsx": "^0.23.0",
+    "vitepress": "1.0.0-rc.31"
   }
 }
