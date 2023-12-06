@@ -6,10 +6,7 @@ const tool = new I18nTool({
     'sample/'
   ],
   skipFiles: [
-    // '.d.ts',
-    // 'app.config.ts',
-    // 'src/pages/common/asset/components/manage-popup', // template中有ts，暂不支持
-    // 'src/pages/common/login/components/agree.vue' // template中有ts，暂不支持
+    '/pages'
   ],
   dictPath: './locals',
   langPath: './locals',
