@@ -1,1 +1,1 @@
-console.log($t('你好'));
+const str1 = '你好'
