@@ -1,0 +1,138 @@
+{
+  "filename": "anonymous.vue",
+  "source": "<template>\n  <div>中文测试</div>\n</template>\n",
+  "template": {
+    "type": "template",
+    "content": "\n  <div>中文测试</div>\n",
+    "loc": {
+      "source": "\n  <div>中文测试</div>\n",
+      "start": {
+        "column": 11,
+        "line": 1,
+        "offset": 10
+      },
+      "end": {
+        "column": 1,
+        "line": 3,
+        "offset": 29
+      }
+    },
+    "attrs": {},
+    "ast": {
+      "type": 1,
+      "ns": 0,
+      "tag": "template",
+      "tagType": 0,
+      "props": [],
+      "isSelfClosing": false,
+      "children": [
+        {
+          "type": 2,
+          "content": "  ",
+          "loc": {
+            "start": {
+              "column": 11,
+              "line": 1,
+              "offset": 10
+            },
+            "end": {
+              "column": 3,
+              "line": 2,
+              "offset": 13
+            },
+            "source": "\n  "
+          }
+        },
+        {
+          "type": 1,
+          "ns": 0,
+          "tag": "div",
+          "tagType": 0,
+          "props": [],
+          "isSelfClosing": false,
+          "children": [
+            {
+              "type": 2,
+              "content": "中文测试",
+              "loc": {
+                "start": {
+                  "column": 8,
+                  "line": 2,
+                  "offset": 18
+                },
+                "end": {
+                  "column": 12,
+                  "line": 2,
+                  "offset": 22
+                },
+                "source": "中文测试"
+              }
+            }
+          ],
+          "loc": {
+            "start": {
+              "column": 3,
+              "line": 2,
+              "offset": 13
+            },
+            "end": {
+              "column": 18,
+              "line": 2,
+              "offset": 28
+            },
+            "source": "<div>中文测试</div>"
+          }
+        },
+        {
+          "type": 2,
+          "content": "\n",
+          "loc": {
+            "start": {
+              "column": 18,
+              "line": 2,
+              "offset": 28
+            },
+            "end": {
+              "column": 1,
+              "line": 3,
+              "offset": 29
+            },
+            "source": "\n"
+          }
+        }
+      ],
+      "loc": {
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
+        },
+        "end": {
+          "column": 12,
+          "line": 3,
+          "offset": 40
+        },
+        "source": "<template>\n  <div>中文测试</div>\n</template>"
+      }
+    },
+    "map": {
+      "version": 3,
+      "sources": [
+        "anonymous.vue"
+      ],
+      "names": [],
+      "mappings": ";EACE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC",
+      "file": "anonymous.vue",
+      "sourceRoot": "",
+      "sourcesContent": [
+        "<template>\n  <div>中文测试</div>\n</template>\n"
+      ]
+    }
+  },
+  "script": null,
+  "scriptSetup": null,
+  "styles": [],
+  "customBlocks": [],
+  "cssVars": [],
+  "slotted": false
+}

@@ -1,0 +1,81 @@
+{
+  "nodeName": "#document",
+  "mode": "quirks",
+  "childNodes": [
+    {
+      "nodeName": "html",
+      "tagName": "html",
+      "attrs": [],
+      "namespaceURI": "http://www.w3.org/1999/xhtml",
+      "childNodes": [
+        {
+          "nodeName": "head",
+          "tagName": "head",
+          "attrs": [],
+          "namespaceURI": "http://www.w3.org/1999/xhtml",
+          "childNodes": [],
+          "parentNode": "[Circular ~.childNodes.0]",
+          "sourceCodeLocation": null
+        },
+        {
+          "nodeName": "body",
+          "tagName": "body",
+          "attrs": [],
+          "namespaceURI": "http://www.w3.org/1999/xhtml",
+          "childNodes": [
+            {
+              "nodeName": "div",
+              "tagName": "div",
+              "attrs": [],
+              "namespaceURI": "http://www.w3.org/1999/xhtml",
+              "childNodes": [
+                {
+                  "nodeName": "#text",
+                  "value": "中文测试",
+                  "parentNode": "[Circular ~.childNodes.0.childNodes.1.childNodes.0]",
+                  "sourceCodeLocation": {
+                    "startLine": 2,
+                    "startCol": 8,
+                    "startOffset": 8,
+                    "endLine": 2,
+                    "endCol": 12,
+                    "endOffset": 12
+                  }
+                }
+              ],
+              "parentNode": "[Circular ~.childNodes.0.childNodes.1]",
+              "sourceCodeLocation": {
+                "startLine": 2,
+                "startCol": 3,
+                "startOffset": 3,
+                "endLine": 2,
+                "endCol": 18,
+                "endOffset": 18,
+                "startTag": {
+                  "startLine": 2,
+                  "startCol": 3,
+                  "startOffset": 3,
+                  "endLine": 2,
+                  "endCol": 8,
+                  "endOffset": 8
+                },
+                "endTag": {
+                  "startLine": 2,
+                  "startCol": 12,
+                  "startOffset": 12,
+                  "endLine": 2,
+                  "endCol": 18,
+                  "endOffset": 18
+                }
+              }
+            }
+          ],
+          "parentNode": "[Circular ~.childNodes.0]",
+          "sourceCodeLocation": null
+        }
+      ],
+      "parentNode": "[Circular ~]",
+      "sourceCodeLocation": null
+    }
+  ]
+}
