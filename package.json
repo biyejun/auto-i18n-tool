@@ -5,7 +5,8 @@
   "author": "mxtzz",
   "license": "MIT",
   "scripts": {
-    "trans": "node ./locals/init.js"
+    "trans": "node ./locals/init.js",
+    "test": "jest"
   },
   "dependencies": {
     "@babel/parser": "^7.22.7",
@@ -18,6 +19,7 @@
     "typescript": "^5.1.6"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "node-xlsx": "^0.23.0"
   }
 }
