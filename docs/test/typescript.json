@@ -1,0 +1,299 @@
+{
+  "pos": 0,
+  "end": 53,
+  "flags": 0,
+  "modifierFlagsCache": 0,
+  "transformFlags": 4457472,
+  "kind": 308,
+  "statements": [
+    {
+      "pos": 0,
+      "end": 27,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "parent": "[Circular ~]",
+      "kind": 269,
+      "importClause": {
+        "pos": 7,
+        "end": 15,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "parent": "[Circular ~.statements.0]",
+        "kind": 270,
+        "isTypeOnly": false,
+        "namedBindings": {
+          "pos": 7,
+          "end": 15,
+          "flags": 0,
+          "modifierFlagsCache": 0,
+          "transformFlags": 0,
+          "parent": "[Circular ~.statements.0.importClause]",
+          "kind": 272,
+          "elements": [
+            {
+              "pos": 9,
+              "end": 13,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "[Circular ~.statements.0.importClause.namedBindings]",
+              "kind": 273,
+              "isTypeOnly": false,
+              "name": {
+                "pos": 9,
+                "end": 13,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "parent": "[Circular ~.statements.0.importClause.namedBindings.elements.0]",
+                "kind": 79,
+                "escapedText": "ref"
+              }
+            }
+          ]
+        }
+      },
+      "moduleSpecifier": {
+        "pos": 20,
+        "end": 26,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "parent": "[Circular ~.statements.0]",
+        "kind": 10,
+        "text": "vue",
+        "hasExtendedUnicodeEscape": false
+      }
+    },
+    {
+      "pos": 27,
+      "end": 52,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 4457472,
+      "parent": "[Circular ~]",
+      "kind": 240,
+      "declarationList": {
+        "pos": 27,
+        "end": 51,
+        "flags": 2,
+        "modifierFlagsCache": 0,
+        "transformFlags": 4457472,
+        "parent": "[Circular ~.statements.1]",
+        "kind": 258,
+        "declarations": [
+          {
+            "pos": 33,
+            "end": 51,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 0,
+            "parent": "[Circular ~.statements.1.declarationList]",
+            "kind": 257,
+            "name": {
+              "pos": 33,
+              "end": 37,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "[Circular ~.statements.1.declarationList.declarations.0]",
+              "kind": 79,
+              "escapedText": "txt"
+            },
+            "initializer": {
+              "pos": 39,
+              "end": 51,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "[Circular ~.statements.1.declarationList.declarations.0]",
+              "kind": 210,
+              "expression": {
+                "pos": 39,
+                "end": 43,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "parent": "[Circular ~.statements.1.declarationList.declarations.0.initializer]",
+                "kind": 79,
+                "escapedText": "ref"
+              },
+              "arguments": [
+                {
+                  "pos": 44,
+                  "end": 50,
+                  "flags": 0,
+                  "modifierFlagsCache": 0,
+                  "transformFlags": 0,
+                  "parent": "[Circular ~.statements.1.declarationList.declarations.0.initializer]",
+                  "kind": 10,
+                  "text": "中文测试",
+                  "hasExtendedUnicodeEscape": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "endOfFileToken": {
+    "pos": 52,
+    "end": 53,
+    "flags": 0,
+    "modifierFlagsCache": 0,
+    "transformFlags": 0,
+    "parent": "[Circular ~]",
+    "kind": 1
+  },
+  "text": "\nimport { ref } from 'vue';\nconst txt = ref('中文测试');\n",
+  "fileName": "astExplorer.tsx",
+  "path": "astExplorer.tsx",
+  "resolvedPath": "astExplorer.tsx",
+  "originalFileName": "astExplorer.tsx",
+  "languageVersion": 99,
+  "languageVariant": 1,
+  "scriptKind": 4,
+  "isDeclarationFile": false,
+  "hasNoDefaultLib": false,
+  "nodeCount": 15,
+  "identifierCount": 3,
+  "symbolCount": 0,
+  "parseDiagnostics": [],
+  "bindDiagnostics": [],
+  "externalModuleIndicator": {
+    "pos": 0,
+    "end": 27,
+    "flags": 0,
+    "modifierFlagsCache": 0,
+    "transformFlags": 0,
+    "parent": "[Circular ~]",
+    "kind": 269,
+    "importClause": {
+      "pos": 7,
+      "end": 15,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "parent": "[Circular ~.externalModuleIndicator]",
+      "kind": 270,
+      "isTypeOnly": false,
+      "namedBindings": {
+        "pos": 7,
+        "end": 15,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "parent": "[Circular ~.externalModuleIndicator.importClause]",
+        "kind": 272,
+        "elements": [
+          {
+            "pos": 9,
+            "end": 13,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 0,
+            "parent": "[Circular ~.externalModuleIndicator.importClause.namedBindings]",
+            "kind": 273,
+            "isTypeOnly": false,
+            "name": {
+              "pos": 9,
+              "end": 13,
+              "flags": 0,
+              "modifierFlagsCache": 0,
+              "transformFlags": 0,
+              "parent": "[Circular ~.externalModuleIndicator.importClause.namedBindings.elements.0]",
+              "kind": 79,
+              "escapedText": "ref"
+            }
+          }
+        ]
+      }
+    },
+    "moduleSpecifier": {
+      "pos": 20,
+      "end": 26,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "parent": "[Circular ~.externalModuleIndicator]",
+      "kind": 10,
+      "text": "vue",
+      "hasExtendedUnicodeEscape": false
+    }
+  },
+  "pragmas": {},
+  "referencedFiles": [],
+  "typeReferenceDirectives": [],
+  "libReferenceDirectives": [],
+  "amdDependencies": [],
+  "identifiers": {},
+  "imports": [
+    {
+      "pos": 20,
+      "end": 26,
+      "flags": 0,
+      "modifierFlagsCache": 0,
+      "transformFlags": 0,
+      "parent": {
+        "pos": 0,
+        "end": 27,
+        "flags": 0,
+        "modifierFlagsCache": 0,
+        "transformFlags": 0,
+        "parent": "[Circular ~]",
+        "kind": 269,
+        "importClause": {
+          "pos": 7,
+          "end": 15,
+          "flags": 0,
+          "modifierFlagsCache": 0,
+          "transformFlags": 0,
+          "parent": "[Circular ~.imports.0.parent]",
+          "kind": 270,
+          "isTypeOnly": false,
+          "namedBindings": {
+            "pos": 7,
+            "end": 15,
+            "flags": 0,
+            "modifierFlagsCache": 0,
+            "transformFlags": 0,
+            "parent": "[Circular ~.imports.0.parent.importClause]",
+            "kind": 272,
+            "elements": [
+              {
+                "pos": 9,
+                "end": 13,
+                "flags": 0,
+                "modifierFlagsCache": 0,
+                "transformFlags": 0,
+                "parent": "[Circular ~.imports.0.parent.importClause.namedBindings]",
+                "kind": 273,
+                "isTypeOnly": false,
+                "name": {
+                  "pos": 9,
+                  "end": 13,
+                  "flags": 0,
+                  "modifierFlagsCache": 0,
+                  "transformFlags": 0,
+                  "parent": "[Circular ~.imports.0.parent.importClause.namedBindings.elements.0]",
+                  "kind": 79,
+                  "escapedText": "ref"
+                }
+              }
+            ]
+          }
+        },
+        "moduleSpecifier": "[Circular ~.imports.0]"
+      },
+      "kind": 10,
+      "text": "vue",
+      "hasExtendedUnicodeEscape": false
+    }
+  ],
+  "moduleAugmentations": [],
+  "ambientModuleNames": [],
+  "resolvedModules": {}
+}
